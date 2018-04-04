@@ -1,6 +1,6 @@
 # Illustrator to Spine
 
-This script supports the latest version of Illustrator CC and all older versions of Photoshop back to CS2.
+This script supports the latest version of Illustrator CC and all older versions of Illustrator back to CS2.
 
 Please note that Adobe has made [CS2 available for download](https://helpx.adobe.com/creative-suite/kb/cs2-product-downloads.html?promoid=19SCDRQK), though they ask that only those who legitimately purchased CS2 use it.
 
@@ -20,7 +20,7 @@ Dragging the script and dropping it on the illustrator window will also run the 
 * `PNG Scale` Scales the layers before writing the image files. This is useful when using higher resolution art in Illustrator than you want to use in Spine.
 * `Ignore hidden layers` Hidden groups and layers are not output.
 * `Write template image` An image containing the currently visible layers is created for use as a template for positioning in Spine.
-* `Clear output directory` Clears the images directory.
+* `Clear output directory` Removes any files in the folder chosen to export the images before writing the new ones.
 * `Write Spine JSON` When unchecked, the script will only output the images.
 
 **Layer names:**
